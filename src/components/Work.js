@@ -1,5 +1,6 @@
 import React from 'react'
-import example1 from '../assets/example1.jpg';
+import example1B from '../assets/example1before.png';
+import example1A from '../assets/example1after.png';
 
 function Work() {
   return (
@@ -9,23 +10,11 @@ function Work() {
     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
         
         <div className=" duration-700 ease-in-out" data-carousel-item>
-            <img src={example1} alt="example1"  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
+            <img src={example1B} alt="example1"  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
         </div>
-       
+
         <div className=" duration-700 ease-in-out" data-carousel-item="active">
-            <img src={example1} alt="example1"  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
-        </div>
-        
-        <div className=" duration-700 ease-in-out" data-carousel-item>
-            <img src={example1} alt="example1"  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
-        </div>
-       
-        <div class=" duration-700 ease-in-out" data-carousel-item>
-            <img src={example1} alt="example1"  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
-        </div>
-        
-        <div className=" duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-5.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={example1A} alt="example1"  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
         </div>
     </div>
  

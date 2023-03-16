@@ -124,7 +124,7 @@ function Contact() {
   Submit
 </button>
           </form>
-          <div className="lg:mt-0 p-5 mt-10 md:my-auto rounded-xl bg-yellow-300 w-full text-center">
+          <div className="lg:mt-0 p-5 mt-10 lg:my-auto rounded-xl bg-yellow-300 w-full text-center">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300">Owner: Jeff</h3>
             <p className="text-gray-800 dark:text-gray-400 mt-2">
               Email: <a href="mailto:email@gmail.com" className="text-primary-700 dark:text-primary-500">email@gmail.com</a>
